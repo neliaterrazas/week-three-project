@@ -12,4 +12,12 @@ var rules = function(num) {
       answer.push(" "+ i);
     }
     return answer;
+}
+$(document).ready(function() {
+  $("form#form").submit(function(event)) {
+    var num = $("input#input").val();
+  $("#final").text(rules(num));
+
+  event.preventDefault;
+  });
 });
