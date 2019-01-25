@@ -1,7 +1,7 @@
-var rules = function(num) {
+var rules = function(num){
   var answer = [ ]; //empty array
 
-  for (i=0; i<=num; i++) {
+  for (var i=0; i<=num; i++) {
     if(i.toString().includes("3")) {
       answer.push("I'm sorry, Dave. I'm afraid I can't do that.");
     }else if(i.toString().includes("2")) {
@@ -12,4 +12,12 @@ var rules = function(num) {
       answer.push(" "+ i);
     }
     return answer;
+}
+$(document).ready(function() {
+  $("form#form").submit(function(event) {
+    var num = $("input#numero").val();
+  $("#final").text(rules(num));
+  event.preventDefault();
+
+  });
 });
