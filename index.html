@@ -10,22 +10,24 @@
   <body>
     <div class="container">
       <h1>Beep Boop</h1>
-      <br><h3>Hello! Kindly submit a number and check for the following specs:
-        <li>
-          <ul>Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"</ul>
-          <ul>Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"</ul>
-          <ul>Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."</ul>
-        </li>
-      </h3>
+      <br><h3>Hello! Kindly submit a number and check for the following specs:</h3>
+      <h6>
+        <br>Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+        <br>Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+        <br>Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+      </h6>
+      <form id="formOne">
+        <div class="form-group" id="yourNumber">
+          <label for="input">Go ahead, type in a number!</label>
+          <input id="input" class="form-control" type="text">
+        </div>
+      </form>
 
-        <form id="form">
-          <div class="form-group">
-            <label for="input">Go ahead, type in a number!</label>
-            <input id="input" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn bg-danger">Submit</button>
-        </form>
+      <button type="submit" class="btn bg-danger">Submit</button>
 
-    <span id="final"></span>
+    </div>
+
+    <span id="please"></span>
+
   </body>
 </html>
