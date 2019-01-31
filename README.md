@@ -6,26 +6,33 @@
 
 ## Description
 
-_At the moment, this application take parameters given by our instructors, and implements these rules into code by reassigning numbers to specific phrases._
+_This site will transform and create a set of numbers based on user input and the following specs:_
+
+## Specs
+_Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+_Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+_Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."_
+_Numbers without any of the previous digits will return the same._
 
 ## Setup/Installation Requirements
 
-* _Download/Clone my repository at https://github.com/neliaterrazas/week-three-project _
+*_Download/Clone my repository at https://github.com/neliaterrazas/week-three-project _
 * _Open up your preferred editing program or open in your browser_
+*_Check it out!_
 
 
 
 ## Known Bugs
 
-_Results are displayed but immediately disappear on the screen _
+_There are zero known bugs at this time! _
 
 ## Support and contact details
 
-_If you play with the console and see anything that I may have missed, please let me know at terrazasnelia@gmail.com _
+_Feel free to email me at terrazasnelia@gmail.com with any questions or suggestions! _
 
 ## Technologies Used
 
-_Javascript, HTML, CSS_
+_Javascript, HTML, CSS, jQuery, Bootstrap_
 
 ### License
 
